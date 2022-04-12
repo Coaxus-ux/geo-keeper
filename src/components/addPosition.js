@@ -26,7 +26,6 @@ export default function addPosition() {
         })();
 
     }, []);
-    //repetir cada segundo 
 
     const onPressButton = async () => {
         let location = await Location.getCurrentPositionAsync({});
